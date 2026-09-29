@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+frontend/.venv/
+frontend/venv/
+
+# Node Modules & Build Artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Environment Variables (Keep API keys private)
+.env
+
+# Python Cache & Testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.db
+*.db-wal
+*.db-shm
+
+# IDE & Editor files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
